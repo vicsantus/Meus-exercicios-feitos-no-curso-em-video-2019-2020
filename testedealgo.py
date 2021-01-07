@@ -1,0 +1,8 @@
+algo1 = input('Digite 1 caracter de qualquer coisa: ')
+print('Isso é alfabético? ', algo1.isalpha())
+print('Isso é numero? ', algo1.isnumeric())
+print('É maiúsculo? ', algo1.isupper())
+print('É minúsculo? ', algo1.islower())
+print('Isso é um espaço? ', algo1.isspace())
+print('Isso é alfa-numérico? ', algo1.isalnum())
+print('Obrigado pela atenção!')

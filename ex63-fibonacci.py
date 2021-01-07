@@ -1,0 +1,10 @@
+cont = int(input('Digite a quantidade que você deseja: '))
+fn = 1
+anterior = fn
+print(fn, end='    ')
+cont -= 1
+while cont != 0:
+    print(fn, end='    ')
+    fn = fn + anterior
+    anterior = fn - anterior
+    cont -= 1
